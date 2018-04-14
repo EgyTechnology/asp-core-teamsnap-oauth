@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  asp-core-teamsnap-oauth:
+    image: aspcoreteamsnapoauth
+    build:
+      context: .
+      dockerfile: asp-core-teamsnap-oauth\Dockerfile
